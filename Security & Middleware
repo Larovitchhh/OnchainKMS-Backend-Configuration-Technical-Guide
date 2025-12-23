@@ -1,0 +1,19 @@
+Security & Middleware
+
+Mandatory middleware:
+
+Request validation (schema-based)
+
+Rate limiting
+
+Error normalization
+
+CORS strict configuration
+
+Security rules:
+
+Fail closed, not open
+
+Reject malformed payloads early
+
+Log errors server-side only
