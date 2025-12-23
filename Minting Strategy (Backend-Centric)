@@ -1,0 +1,24 @@
+7. 
+Recommended backend approach:
+
+Frontend sends intent (not transaction)
+
+Backend validates:
+
+Farcaster user
+
+Activity metadata
+
+Anti-spam rules
+
+Backend performs mint using its signer
+
+NFT is assigned to user wallet or custody address
+
+Benefits:
+
+No client-side wallet dependency
+
+Predictable gas handling
+
+No UX fragmentation
