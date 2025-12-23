@@ -1,0 +1,17 @@
+Deployment & Operations
+
+Backend should run as:
+
+Systemd service or Docker container
+
+Behind NGINX reverse proxy
+
+With structured logging
+
+Operational best practices:
+
+One backend = one responsibility
+
+Zero coupling to frontend build process
+
+Restart-safe (no in-memory state)
