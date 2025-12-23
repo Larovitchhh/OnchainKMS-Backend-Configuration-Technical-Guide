@@ -1,0 +1,19 @@
+5. 
+
+Routes should be minimal and explicit.
+
+Example:
+
+GET  /api/health
+POST /api/mint
+GET  /api/user/:fid
+POST /api/webhook/farcaster
+
+
+Routing rules:
+
+No implicit behavior
+
+No dynamic magic routing
+
+One controller per domain
