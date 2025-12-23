@@ -1,0 +1,24 @@
+
+
+All chain interaction must live in a dedicated service:
+
+services/blockchain.service.js
+
+
+Responsibilities:
+
+Contract instantiation
+
+Transaction building
+
+Error normalization
+
+Chain abstraction (Base, testnet, etc.)
+
+Frontend should never know:
+
+RPC URLs
+
+Private keys
+
+Contract internals
