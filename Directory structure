@@ -1,0 +1,25 @@
+backend/
+├── package.json
+├── src/
+│   ├── index.js
+│   ├── app.js
+│   ├── routes/
+│   │   ├── index.js
+│   │   ├── api.routes.js
+│   ├── controllers/
+│   │   ├── farcaster.controller.js
+│   │   ├── mint.controller.js
+│   │   ├── user.controller.js
+│   ├── services/
+│   │   ├── farcaster.service.js
+│   │   ├── blockchain.service.js
+│   │   ├── strava.service.js
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   ├── error.middleware.js
+│   ├── config/
+│   │   ├── env.js
+│   │   ├── chains.js
+│   └── utils/
+│       ├── logger.js
+│       ├── validators.js
