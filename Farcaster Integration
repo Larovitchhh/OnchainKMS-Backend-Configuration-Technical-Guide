@@ -1,0 +1,17 @@
+
+
+The backend must:
+
+Validate Farcaster identity (FID, signature, custody)
+
+Never trust frontend claims directly
+
+Treat Farcaster as an identity provider, not a wallet
+
+Typical responsibilities:
+
+Verify signed payloads
+
+Resolve user metadata
+
+Enforce rate limits per FID
