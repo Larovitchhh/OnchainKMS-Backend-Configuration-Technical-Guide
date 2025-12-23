@@ -1,0 +1,26 @@
+
+
+All configuration must come from environment variables.
+
+Example .env:
+
+NODE_ENV=production
+PORT=3000
+
+FARCASTER_APP_FID=685189
+FARCASTER_PUBLIC_KEY=...
+
+CHAIN_RPC_URL=https://mainnet.base.org
+SIGNER_PRIVATE_KEY=...
+
+STRAVA_CLIENT_ID=...
+STRAVA_CLIENT_SECRET=...
+
+
+Rules:
+
+Never hardcode secrets
+
+Never expose private keys to frontend
+
+Backend is the trust boundary
